@@ -6,9 +6,20 @@ music_a = {
         A, N, A, N, A, A, A, N,
         A, N, A, N, A, A, A, N,
     ],
-    "fps": 100,
-    "bpm": 120,
+    # lesson4 音楽の再生 で変更
+    "fps": 60000 / 121 / 5,
+    "bpm": 121,
+    #
     "title": "sample A",
+    # lesson4 音楽の再生 で追加
+    "music": 'sounds/MusMus-CT-NV-TT.mp3',
+    #
+    # lesson4 音楽の再生 で追加
+    "delay": 1630,
+    #
+    # lessson4 画面の作成 で追加
+    "time": 75000,
+    #
 }
 
 music_b = {
